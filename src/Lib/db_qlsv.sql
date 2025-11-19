@@ -89,7 +89,6 @@ CREATE TABLE `sinh_vien`  (
 -- ----------------------------
 -- Records of sinh_vien
 -- ----------------------------
-INSERT INTO `sinh_vien` VALUES (22010140, 'Nhi', '2024-06-02', b'0', '1111', '', b'1');
 INSERT INTO `sinh_vien` VALUES (22010139, 'Tran Duc Long', '2004-09-04', b'1', NULL, NULL, b'1');
 INSERT INTO `sinh_vien` VALUES (36, '2222', '2024-06-03', b'0', '222', '', b'0');
 INSERT INTO `sinh_vien` VALUES (35, '1', '2024-06-02', b'1', '1', '1', b'1');
@@ -112,6 +111,5 @@ CREATE TABLE `tai_khoan`  (
 INSERT INTO `tai_khoan` VALUES (4, '.', '.', b'1');
 INSERT INTO `tai_khoan` VALUES (3, 'admin', 'admin', b'0');
 INSERT INTO `tai_khoan` VALUES (2, 'long', '040904', b'1');
-INSERT INTO `tai_khoan` VALUES (1, 'nhi', '041104', b'1');
 
 SET FOREIGN_KEY_CHECKS = 1;
